@@ -7,27 +7,27 @@ const questions = [
   {
     question: "Identify this mushroom.",
     answer: "Brown Puffball",
-    image: "Brown puffball.jpg",
+    image: "brown puffball.jpg",
   },
   {
     question: "Identify this mushroom.",
     answer: "The Miller",
-    image: "The Miller.jpg",
+    image: "the miller.jpg",
   },
   {
     question: "Identify this mushroom.",
     answer: "Gassy Webcap",
-    image: "Gassy webcap.jpg",
+    image: "gassy webcap.jpg",
   },
   {
     question: "Identify this mushroom.",
     answer: "Poison Pie",
-    image: "Poison Pie.jpg",
+    image: "poison pie.jpg",
   },
   {
     question: "Identify this mushroom.",
     answer: "Curry Milkcap",
-    image: "Curry Milkcap.jpg",
+    image: "curry milkcap.jpg",
   },
   { question: "What is Marcus' Favourite Show?", answer: "The Simpsons" },
   { question: "What is the best workout supplement?", answer: "Creatine" },
