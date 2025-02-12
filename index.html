@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Test your knowledge to determine if you are worthy of being my valentine</h1>
+    <p>Answer all 10 questions correctly to unlock the surprise!</p>
+    <div id="question-box">
+      <div id="image-container"></div>
+      <p id="question"></p>
+      <input type="text" id="answer" placeholder="Enter your answer here">
+      <button id="submit">Submit</button>
+    </div>
+    <div id="feedback"></div>
+    <div id="timer">Time left: <span id="time">600</span> seconds</div>
+  </div>
+  
+  <audio id="suspense-sound" loop>
+    <source src="suspense.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="correct-sound">
+    <source src="correct.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="wrong-sound">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
