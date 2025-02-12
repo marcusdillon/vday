@@ -2,7 +2,7 @@ const questions = [
   {
     question: "Identify this mushroom.",
     answer: "Pinewood Mushroom",
-    image: "Pinewood Mushroom.jpg",
+    image: "pinewood mushroom.jpg",
   },
   {
     question: "Identify this mushroom.",
